@@ -1,6 +1,4 @@
-using System.Numerics;
-
-namespace lab1
+namespace Task_4
 {
     public partial class Form1 : Form
     {
@@ -14,7 +12,6 @@ namespace lab1
             Array.Sort(numbers);
             return numbers;
         }
-
         private void btnSort_Click(object sender, EventArgs e)
         {
             int[] numbers = { 3, 1, 5, 2, 4 };
