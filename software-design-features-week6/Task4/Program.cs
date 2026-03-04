@@ -1,4 +1,4 @@
-namespace BubbleSort
+namespace Task4
 {
     internal static class Program
     {

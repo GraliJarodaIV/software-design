@@ -1,4 +1,4 @@
-﻿namespace lab2
+﻿namespace lab8
 {
 	partial class Form1
 	{

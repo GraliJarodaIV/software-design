@@ -1,4 +1,4 @@
-namespace CustomDecendingOrder
+namespace Task4
 {
     internal static class Program
     {

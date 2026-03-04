@@ -1,4 +1,4 @@
-﻿namespace CustomDecendingOrder
+﻿namespace Task4
 {
     partial class Form1
     {
@@ -28,35 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            listBox = new ListBox();
+            btnSort = new Button();
+            listBoxResults = new ListBox();
             SuspendLayout();
             // 
-            // button1
+            // btnSort
             // 
-            button1.Location = new Point(168, 40);
-            button1.Name = "button1";
-            button1.Size = new Size(210, 119);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnSort.Location = new Point(89, 70);
+            btnSort.Name = "btnSort";
+            btnSort.Size = new Size(124, 52);
+            btnSort.TabIndex = 0;
+            btnSort.Text = "Sort";
+            btnSort.UseVisualStyleBackColor = true;
+            btnSort.Click += btnSort_Click;
             // 
-            // listBox
+            // listBoxResults
             // 
-            listBox.FormattingEnabled = true;
-            listBox.Location = new Point(452, 40);
-            listBox.Name = "listBox";
-            listBox.Size = new Size(242, 169);
-            listBox.TabIndex = 1;
+            listBoxResults.FormattingEnabled = true;
+            listBoxResults.Location = new Point(286, 70);
+            listBoxResults.Name = "listBoxResults";
+            listBoxResults.Size = new Size(218, 184);
+            listBoxResults.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(listBox);
-            Controls.Add(button1);
+            ClientSize = new Size(679, 387);
+            Controls.Add(listBoxResults);
+            Controls.Add(btnSort);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -64,7 +64,7 @@
 
         #endregion
 
-        private Button button1;
-        private ListBox listBox;
+        private Button btnSort;
+        private ListBox listBoxResults;
     }
 }

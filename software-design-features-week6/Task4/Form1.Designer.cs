@@ -1,4 +1,4 @@
-﻿namespace BubbleSort
+﻿namespace Task4
 {
     partial class Form1
     {
@@ -28,45 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            beforeSort = new ListBox();
-            button1 = new Button();
-            listBox = new ListBox();
+            btnSort = new Button();
+            listBoxResults = new ListBox();
             SuspendLayout();
             // 
-            // beforeSort
+            // btnSort
             // 
-            beforeSort.FormattingEnabled = true;
-            beforeSort.Location = new Point(281, 54);
-            beforeSort.Name = "beforeSort";
-            beforeSort.Size = new Size(220, 229);
-            beforeSort.TabIndex = 0;
+            btnSort.Location = new Point(89, 70);
+            btnSort.Name = "btnSort";
+            btnSort.Size = new Size(124, 52);
+            btnSort.TabIndex = 0;
+            btnSort.Text = "Sort";
+            btnSort.UseVisualStyleBackColor = true;
+            btnSort.Click += btnSort_Click;
             // 
-            // button1
+            // listBoxResults
             // 
-            button1.Location = new Point(55, 54);
-            button1.Name = "button1";
-            button1.Size = new Size(204, 120);
-            button1.TabIndex = 1;
-            button1.Text = "Bubble Sort!";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // listBox
-            // 
-            listBox.FormattingEnabled = true;
-            listBox.Location = new Point(507, 54);
-            listBox.Name = "listBox";
-            listBox.Size = new Size(212, 229);
-            listBox.TabIndex = 2;
+            listBoxResults.FormattingEnabled = true;
+            listBoxResults.Location = new Point(286, 70);
+            listBoxResults.Name = "listBoxResults";
+            listBoxResults.Size = new Size(218, 184);
+            listBoxResults.TabIndex = 1;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(listBox);
-            Controls.Add(button1);
-            Controls.Add(beforeSort);
+            ClientSize = new Size(679, 387);
+            Controls.Add(listBoxResults);
+            Controls.Add(btnSort);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -74,8 +64,7 @@
 
         #endregion
 
-        private ListBox beforeSort;
-        private Button button1;
-        private ListBox listBox;
+        private Button btnSort;
+        private ListBox listBoxResults;
     }
 }
